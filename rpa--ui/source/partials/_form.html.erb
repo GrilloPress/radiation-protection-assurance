@@ -1,0 +1,37 @@
+<form id="service-request-form">
+  <div class="form-group">
+  	<label for="customerName">Full name</label>
+	<input type="text" class="form-control" id="customerName" placeholder="Full Name" required>
+  </div>
+  <div class="form-group">
+  	<label for="jobTitle">Job Title</label>
+	<input type="text" class="form-control" id="jobTitle" placeholder="Job Title" required>
+  </div>
+  <div class="form-group">
+  	<label for="customerCompany">Organisation</label>
+	<input type="text" class="form-control" id="customerCompany" placeholder="Organization" required>
+  </div>
+  <div class="form-group">
+  	<label for="phoneNumber">Phone Number</label>
+	<input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
+  </div>
+  <div class="form-group">
+    <label for="customerEmail">Email address</label>
+    <input type="email" class="form-control" id="customerEmail" placeholder="Email" required>
+  </div>
+  <div class="form-group">
+  	<label for="servicesRequired">Services Required</label>
+  	<select class="form-control" id="servicesRequired">
+	  <option>Radiation Protection</option>
+	  <option>Training</option>
+	  <option>etc.</option>
+	  <option>etc.</option>
+	  <option>etc.</option>
+	</select>
+  </div>
+  <div class="form-group">
+  	<label for="customerMessage">Message</label>
+  	<textarea class="form-control" id="customerMessage" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-block btn-primary">Submit</button>
+</form>
