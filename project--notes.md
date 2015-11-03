@@ -9,7 +9,7 @@ To provide the Radiation Protection Assurance service with a marketing website t
 ### Featured Services
 
 - Complete Radiation Protection
-- Project Managment 
+- Project Management 
 - Consultation
 - Training & Team Development
 - Quality Assurance
