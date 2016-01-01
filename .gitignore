@@ -13,3 +13,5 @@ rpa--ui/build
 # Ignore cache
 rpa--ui/.sass-cache
 rpa--ui/.cache
+
+sunshine
