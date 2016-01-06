@@ -45,6 +45,8 @@
   width: 100%;
   color: white;  
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
   
   a {
     
@@ -56,5 +58,21 @@
 .nav-top {
   
   margin-top: 1em;
+  
+}
+
+.nav-block {
+  
+  border: 1.5px solid #226A82;
+  padding: 1em;
+  background-color: #216E88;
+  
+}
+
+#featured-services {
+  
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   
 }
