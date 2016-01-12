@@ -1,4 +1,4 @@
-<nav>
+<nav id="top">
   <div class="container container-white">
     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-12">
@@ -7,8 +7,8 @@
 
       <div class="col-md-4 col-md-offset-5 col-sm-6 col-xs-12">     
           <ul class="nav nav-pills nav-top">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Our Services</a></li>
+            <li role="presentation" class="<%= is_page_selected("/") %>"><a href="<%= in_page_link_or('hero') %>">Home</a></li>
+            <li role="presentation"><a href="<%= in_page_link_or('our-services') %>">Our Services</a></li>
             <li role="presentation"><a type="button" class="btn" data-toggle="modal" data-target="#myModal">Contact us</a></li>
           </ul>
       </div>

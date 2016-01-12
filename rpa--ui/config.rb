@@ -47,6 +47,23 @@
 #   end
 # end
 
+helpers do
+  
+  def is_page_selected(page)
+    current_page.url == page ? "active" : ''
+  end
+  
+  def in_page_link_or(id)
+    if current_page.url == '/'
+      '#' + "#{id}"
+    else
+      "index.html" + '#' + id
+    end
+  end
+  
+end
+
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
