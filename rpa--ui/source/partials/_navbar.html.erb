@@ -5,10 +5,11 @@
         <%= image_tag "five-icons.png", class:"hidden-xs", width: "100%" %>
       </div>
 
-      <div class="col-md-4 col-md-offset-5 col-sm-6 col-xs-12">     
+      <div class="col-md-5 col-md-offset-4 col-sm-6 col-xs-12">     
           <ul class="nav nav-pills nav-top">
-            <li role="presentation" class="<%= is_page_selected("/") %>"><a href="<%= in_page_link_or('hero') %>">Home</a></li>
+            <li role="presentation" class="<%= is_page_selected("/") %>"><a href="<%= in_page_link_or('') %>">Home</a></li>
             <li role="presentation"><a href="<%= in_page_link_or('our-services') %>">Our Services</a></li>
+            <li role="presentation" class="<%= is_page_selected("/our-team.html") %>"><%= link_to "Our Team", "/our-team.html" %></li>
             <li role="presentation"><a type="button" class="btn" data-toggle="modal" data-target="#myModal">Contact us</a></li>
           </ul>
       </div>

@@ -1,0 +1,21 @@
+testimonial:
+  - id: "dawn-smiles"
+    service_type: "Radiation Protection"
+    company: "smiles MedTEC consulting ltd"
+    body: "<p>I’ve had the pleasure to work with Giles and the Radiation Protection Assurance (RPA) team while implementing and installing radiotherapy equipment at the Royal Hallamshire Hospital. As Head of Physics and Radiology – Giles played an instrumental role in supporting this process.</p><p>The RPA team were enthusiastic and committed to providing the highest level of support and training, to both the Trust and manufacturing staff alike. </p><p>Giles and the team thoroughly understand the complex technical equipment and can articulate those facts clearly to non-technical team members.</p>"
+    name: "Dawn Smiles"
+    job_title: "Clinical Director"
+    
+  - id: "orit-yarden"
+    service_type: "Corporate Assurance"
+    company: "Freelance"
+    body: "<p>I was very satisfied with the radiation protection assurance team’s responsiveness and professional approach. I am very happy to recommend Giles and the team again.</p><p>As a freelance consultant I work with many companies who may be requiring this type of service and I will be sure to ask for your assistance in the future.</p>"
+    name: "Orit Yarden"
+    job_title: "Clinical and Regulatory professional"
+    
+  - id: "renee-townsend"
+    service_type: "Training & Staff Development"
+    company: "The NHS Rotherham Foundation Trust"
+    body: "<p>Thank you very much Giles and the Radiation Protection Assurance team for the thorough training you provided for all our staff at Rotherham– it is so helpful to us to have the training provided by someone who knows our services so well</p>"
+    name: "Ranee Townsend"
+    job_title: "Clinical Director of Salaried Dental Services Specialist in Special Care dentistry"
