@@ -26,15 +26,27 @@ title: Our Team
     
     <div class="col-md-5 col-md-offset-1">
       <h3>Meet the team</h3>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4">
-          <%= image_tag "team/giles-morrison.jpg", class: "img-responsive", width: "100%" %>
-        </div>
-        <div class="col-md-8 col-sm-8 col-xs-8">
-          <h4>Mr Giles Morrison</h4>
-          <p>Head of Radiation Protection Services, RPA, Diagnostic Radiology/Laser Protection and UV</p>
-        </div>
-      </div>
+      
+        
+      <% data.staff.member.each do |s| %>
+        <section id="<%= s.id %>" class="card-team-member">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <%= image_tag s.img, class: "img-responsive", width: "100%" %>
+            </div>
+
+            <div class="col-md-8 col-sm-8 col-xs-8">
+              <h4><%= s.name %></h4>
+              <p><%= s.bio %></p>
+            </div>
+          </div>
+        </section>
+      <% end %>
+        
+        
+        
+        
+      
     </div>
     
     <div class="col-md-4 col-md-offset-1">

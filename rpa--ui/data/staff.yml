@@ -1,0 +1,35 @@
+member:
+  - name: "Mr Giles Morrison"
+    id: "giles-morrison"
+    img: "team/giles-morrison.jpg"
+    bio: "Head of Radiation Protection Services, RPA, Diagnostic Radiology/Laser Protection and UV"
+
+  - name: "Mr Mark Singleton"
+    id: "mark-singleton"
+    img: "team/mark-singleton.jpg"
+    bio: "Deputy Head of Radiation Protection Services, RPA,  Radioactive Substances"
+    
+  - name: "Ms Karen Fuller"
+    id: "karen-fuller"
+    img: "team/karen-fuller.jpg"
+    bio: "Clinical Scientist, RPA, Diagnostic Radiology"
+    
+  - name: "Dr Paul Harris"
+    id: "paul-harris"
+    img: "team/paul-harris.jpg"
+    bio: "Route 2 Trainee Clinical Scientist, Radioactive Substances"
+    
+  - name: "Mr Chris Ogley"
+    id: "chris-ogley"
+    img: "team/chris-ogley.jpg"
+    bio: "Chief Technologist, Diagnostic Radiology/ Radioactive Substances"
+    
+  - name: "Miss Tracy Soanes"
+    id: "tracey-soanes"
+    img: "team/tracey-soanes.jpg"
+    bio: "Clinical Scientist, RPA, Radioactive Substances"
+    
+  - name: "Dr Prashant Verma"
+    id: "prashant-verma"
+    img: "team/prashant-verma.jpg"
+    bio: "Clinical Scientist, Ultrasound"
