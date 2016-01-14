@@ -16,20 +16,21 @@
   </div>
   
   <div class="col-md-4 col-md-offset-1 hidden-xs">
-    <div class="row">
-      
-      <% data.staff.member.each do |s| %>      
-        
-          <div class="col-md-4 col-sm-4">
-            <section class="card-team-member">
-              <%= image_tag s.img, class: "img-responsive", width: "100%" %>
-            </section>
-          </div>
-        
-      <% end %>
-      
+    <div class="spacer">
+        <div class="row">
+
+        <% data.staff.member.each do |s| %>      
+
+            <div class="col-md-4 col-sm-4">
+              <section class="card-team-member">
+                <%= image_tag s.img, class: "img-responsive", width: "100%" %>
+              </section>
+            </div>
+
+        <% end %>
+
+      </div>
     </div>
-    <br>
   </div>
   
 </div>
