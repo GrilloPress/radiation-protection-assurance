@@ -61,6 +61,14 @@ helpers do
     end
   end
   
+  def hero_services_link(id)
+    if current_page.url == '/'
+      '#' + "#{id}"
+    else
+      '/our-services.html'
+    end
+  end
+  
 end
 
 

@@ -9,10 +9,10 @@
     </div>
 
         <div class="col-md-3 col-sm-6 nav-block">
-          <a href="<%= in_page_link_or('our-services') %>">
-              <img width="64" src="images/circle156.png">  
-              <h5>Our Services</h5>
-           </a>
+          <% link_to hero_services_link('our-services') do %>
+            <img width="64" src="images/circle156.png">  
+            <h5>Our Services</h5>
+          <% end %>
         </div>
 
         <div class="col-md-3 col-sm-6 nav-block">
