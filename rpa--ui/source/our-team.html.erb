@@ -21,9 +21,12 @@ title: Our Team
         <p>This skilled team is supported by our extensive facilities for equipment performance measurement, image analysis, personnel dosimetry, sample analysis and monitoring equipment.</p>
         <p>We also use a range of up-to-date commercial and bespoke analysis software. As a Section we are part of one of the largest Medical Physics and Clinical Engineering Departments within one of the leading NHS Teaching Hospitals in the UK.</p>
         <p>Through our services, clients have access to specialist electronic, mechanical and software engineering, design and fabrication facilities, enabling us to fully support a comprehensive range of service requirements.</p>
-
-        <h3>Contact us</h3>
-        <%= partial "partials/form" %>
+        <a role="button" href="#" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg" data-toggle="modal" data-target="#myModal">Contact us</a>
+        <section class="hidden-xs hidden-sm">
+          <h3>Contact us</h3>
+          <%= partial "partials/form" %>
+        </section>
+        
       </div>
 
       <div class="col-md-5 col-md-offset-1">
@@ -42,7 +45,13 @@ title: Our Team
           </section>
         <% end %>
       </div>
+      
+      
     </div>
+    
+    <p>
+      <a role="button" href="#" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg" data-toggle="modal" data-target="#myModal">Contact us</a>
+    </p>
   </section>
 
 </div>
