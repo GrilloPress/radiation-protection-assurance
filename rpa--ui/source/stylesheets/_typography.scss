@@ -34,7 +34,7 @@ h2 {
     
     font-size: 3.5em;
     font-weight: 700;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     
   }
   
@@ -42,7 +42,7 @@ h2 {
 
 // @Template: Form
 //
-// As a user, I want to know what details I have to fill in, so that I can successfully get in contact
+// As a user, I want to know what details are required, so that I can successfully get in contact
 
 span.required {
   
@@ -60,8 +60,16 @@ span.required {
 
 .hero-text {
   
-  margin-bottom: 4em;
+  margin-bottom: 6em;
   
+}
+
+@media screen and (max-width: 450px){
+  .hero-text{
+    
+    margin-bottom: 1em
+      
+  }
 }
 
 .service-text {
