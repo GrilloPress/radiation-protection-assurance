@@ -1,13 +1,9 @@
-<div class="jumbotron" style="background-image: url('images/background-rhh.jpg');">
-  <div class="row">
-    <div class="col-md-12">
-      <section class="hero-text">
-        <h1>Radiation Protection Assurance</h1>
-        <p class="lead">World-class Radiation Protection from an award winning hospital</p>
-        <br>
-      </section>
-    </div>
-
+<div class="jumbotron">
+  
+  <%= image_tag "radiation-header-test.jpg", class: "img-responsive"%>
+  
+  <section class="nav-block-container">
+      <div class="row">
         <div class="col-md-3 col-sm-6 nav-block">
           <% link_to hero_services_link('our-services') do %>
             <img width="64" src="images/circle156.png">  
@@ -36,6 +32,7 @@
             <h5>Our Team</h5>
           <% end %>
         </div>
+    </div>  
+  </section>
 
-  </div>
 </div>

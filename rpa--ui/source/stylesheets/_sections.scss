@@ -9,7 +9,7 @@
 
 #hero {
   
-  margin-top: 25px;
+  margin-top: 0.5em;
   
 }
 
@@ -67,11 +67,18 @@
   
 }
 
+.nav-block-container {
+  
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+
 .nav-block {
   
-  border: 1.5px solid #226A82;
+  border: 1.5px solid #DDB718;
   padding: 1em;
-  background-color: #216E88;
+  background-color: $brand-primary;
   
 }
 
