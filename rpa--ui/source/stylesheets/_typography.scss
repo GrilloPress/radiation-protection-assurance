@@ -64,13 +64,43 @@ span.required {
   
 }
 
+.navbar-brand {
+    
+    font-weight: 700
+  }
 
+@media (max-width: 768px) {
+  
+  .jumbotron {
+    
+    h1 {
+      
+      padding-top: 1em;
+      font-size: 2em;
+      margin-top: 0px;
+      padding-bottom: 1em;
+      color: white;
+      
+    }
+    
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+  
+}
 
 @media screen and (max-width: 450px){
   .hero-text{
     
     margin-bottom: 1em
       
+  }
+  
+  .navbar-brand {
+    
+    width: 230px;
+    
   }
 }
 

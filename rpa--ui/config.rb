@@ -65,7 +65,7 @@ helpers do
     if current_page.url == '/'
       '#' + "#{id}"
     else
-      '/our-services.html'
+      '/our-services.html#article'
     end
   end
   

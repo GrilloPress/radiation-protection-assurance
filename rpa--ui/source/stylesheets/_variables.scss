@@ -16,9 +16,9 @@ $gray-light:             #777; // #777
 $gray-lighter:           #eee; // #eee
 
 $brand-primary:         #FFD006; 
-$brand-success:         #6FAF5E;
-$brand-info:            #007E5B;
-$brand-warning:         #E8B539;
+$brand-success:         #007E5B;
+$brand-info:            #197BCC;
+$brand-warning:         #FF9E07;
 $brand-danger:          #B71F54;
 
 
@@ -32,9 +32,9 @@ $body-bg:               #efefef;
 // $text-color:            $gray-dark
 
 //** Global textual link color.
-// $link-color:            $brand-primary
+$link-color:            $brand-info;
 //** Link hover color set via `darken()` function.
-// $link-hover-color:      darken($link-color, 15%)
+$link-hover-color:      darken($link-color, 15%);
 //** Link hover decoration.
 // $link-hover-decoration: underline
 
@@ -153,7 +153,7 @@ $border-radius-small:       0;
 // $btn-default-bg:                 #fff
 // $btn-default-border:             #ccc
 
-// $btn-primary-color:              #fff
+$btn-primary-color:              $gray;
 // $btn-primary-bg:                 $brand-primary
 // $btn-primary-border:             darken($btn-primary-bg, 5%)
 
@@ -377,8 +377,8 @@ $navbar-default-border:            darken($navbar-default-bg, 6.5%);
 $navbar-default-link-color:                $gray-base;
 $navbar-default-link-hover-color:          #333;
 // $navbar-default-link-hover-bg:             transparent
-// $navbar-default-link-active-color:         #555
-// $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%)
+$navbar-default-link-active-color:         $gray;
+$navbar-default-link-active-bg:            $brand-primary;
 // $navbar-default-link-disabled-color:       #ccc
 // $navbar-default-link-disabled-bg:          transparent
 
@@ -389,8 +389,8 @@ $navbar-default-link-hover-color:          #333;
 
 // Navbar toggle
 // $navbar-default-toggle-hover-bg:           #ddd
-// $navbar-default-toggle-icon-bar-bg:        #888
-// $navbar-default-toggle-border-color:       #ddd
+$navbar-default-toggle-icon-bar-bg:     $gray;
+$navbar-default-toggle-border-color:       transparent;
 
 
 //=== Inverted navbar

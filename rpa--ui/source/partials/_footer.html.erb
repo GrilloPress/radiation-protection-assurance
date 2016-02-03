@@ -3,8 +3,9 @@
     <footer id="rpa">
       
       <p class="pull-right"><%= link_to "Home", "/index.html" %> | <%= link_to "Disclaimer and Attributions", "/disclaimer-attributions.html" %></p>
-      <%= image_tag "sth-trans.png" %>
-      
+      <% link_to "http://www.sth.nhs.uk" do %>
+        <%= image_tag "sth-trans.png", class: "img-responsive" %>
+      <% end %>
     </footer>
   </div>
 </div>
