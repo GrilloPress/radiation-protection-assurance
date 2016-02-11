@@ -2,12 +2,12 @@ member:
   - name: "Mr Giles Morrison"
     id: "giles-morrison"
     img: "team/giles-morrison.jpg"
-    bio: "Head of Radiation Protection Services, RPA, Diagnostic Radiology/Laser Protection and UV"
+    bio: "Head of Radiation Protection Services, RPA, Diagnostic Radiology/Laser Protection and UV</p><p>Head of Section for 10 Years. 25 years experience of delivering Radiation Protection in healthcare.</p><p>Deputy Regional Physics QA Chair for the NEYH QARC for Mammography</p><p>Represents the IPEM Radiation Protection Special Interest Group as Lead Medical Physics Expert on the Health Research Authority Guardians on Medical Research Exposures."
 
   - name: "Mr Mark Singleton"
     id: "mark-singleton"
     img: "team/mark-singleton.jpg"
-    bio: "Deputy Head of Radiation Protection Services, RPA,  Radioactive Substances"
+    bio: "Deputy Head of Radiation Protection Services, RPA,  Radioactive Substances </p><p> Radiation Protection Clinical Scientist since September 1998 </p><p> Assessor for RPA 2000, accredited by the HSE to undertake assessment of RPA certification applications</p>"
     
   - name: "Ms Karen Fuller"
     id: "karen-fuller"
