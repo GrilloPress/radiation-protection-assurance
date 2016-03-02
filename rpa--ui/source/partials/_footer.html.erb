@@ -2,10 +2,11 @@
   <div class="col-md-12">
     <footer id="rpa">
       
-      <p class="pull-right"><%= link_to "Home", "/index.html" %> | <%= link_to "Disclaimer and Attributions", "/disclaimer-attributions.html" %> | <a href="#top"> Back to top</a></p>
-      <% link_to "http://www.sth.nhs.uk" do %>
+      <p class="pull-left"><%= link_to "Home", "/index.html" %> | <%= link_to "Disclaimer and Attributions", "/disclaimer-attributions.html" %> | <a href="#top"> Back to top</a></p>
+      <% link_to "http://www.sth.nhs.uk", class: "pull-right" do %>
         <%= image_tag "sth-trans.png", class: "img-responsive" %>
       <% end %>
+      <p class="clearfix"></p>
     </footer>
   </div>
 </div>

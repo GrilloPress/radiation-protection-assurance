@@ -9,11 +9,6 @@ member:
     img: "team/mark-singleton.jpg"
     bio: "Deputy Head of Radiation Protection Services, RPA,  Radioactive Substances </p><p> Radiation Protection Clinical Scientist since September 1998 </p><p> Assessor for RPA 2000, accredited by the HSE to undertake assessment of RPA certification applications</p>"
     
-  - name: "Ms Karen Fuller"
-    id: "karen-fuller"
-    img: "team/karen-fuller.jpg"
-    bio: "Clinical Scientist, RPA, Diagnostic Radiology"
-    
   - name: "Dr Paul Harris"
     id: "paul-harris"
     img: "team/paul-harris.jpg"
@@ -25,11 +20,36 @@ member:
     bio: "Chief Technologist, Diagnostic Radiology/ Radioactive Substances"
     
   - name: "Miss Tracy Soanes"
-    id: "tracey-soanes"
-    img: "team/tracey-soanes.jpg"
+    id: "tracy-soanes"
+    img: "team/tracy-soanes.jpg"
     bio: "Clinical Scientist, RPA, Radioactive Substances"
     
   - name: "Dr Prashant Verma"
     id: "prashant-verma"
     img: "team/prashant-verma.jpg"
     bio: "Clinical Scientist, Ultrasound"
+    
+  - name: "Matt Hill"
+    id: "matt-hill"
+    img: "team/matt-hill.jpg"
+    bio: "Clinical Scientist, RPA"
+    
+  - name: "Mike Tyas"
+    id: "mike-tyas"
+    img: "team/mike-tyas.jpg"
+    bio: "Senior Clinical Technologist, RPA"
+    
+  - name: "Mark Williams"
+    id: "mark-williams"
+    img: "team/mark-williams.jpg"
+    bio: "Senior Assistant Clinical Technologist, RPA"
+    
+  - name: "Andy Fry"
+    id: "andy-fry"
+    img: "team/andy-fry.jpg"
+    bio: "Trainee Clinical Scientist, MR"
+    
+  - name: "Wendy Fish"
+    id: "wendy-fish"
+    img: "team/wendy-fish.jpg"
+    bio: "Departmental Secretary, RPA"
