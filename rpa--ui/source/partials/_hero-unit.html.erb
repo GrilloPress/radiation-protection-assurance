@@ -1,8 +1,7 @@
 <div class="jumbotron">
   
   <%= image_tag "radiation-header-full.jpg", class: "img-responsive hidden-xs"%>
-  
-  <h1 class="visible-xs">For all of your radiation protection, advice and assurance needs</h1>
+  <%= image_tag "logo-doc.png", class: "img-responsive visible-xs mobile-header"%>
   
   <section class="nav-block-container">
       <div class="row">
@@ -14,10 +13,10 @@
         </div>
 
         <div class="col-md-3 col-sm-6 nav-block">
-          <a href="#" data-toggle="modal" data-target="#myModal">
-            <img width="64" src="images/email19.png">  
-            <h5>Contact us</h5>
-          </a>
+          <% link_to "/our-team.html#article" do %>
+            <img width="64" src="images/multiple25.png">  
+            <h5>Our Team</h5>
+          <% end %>
         </div>
 
         <div class="col-md-3 col-sm-6 nav-block">
@@ -26,12 +25,12 @@
             <h5>Testimonials</h5>
           </a>
         </div>
-
+        
         <div class="col-md-3 col-sm-6 nav-block">
-          <% link_to "/our-team.html#article" do %>
-            <img width="64" src="images/multiple25.png">  
-            <h5>Our Team</h5>
-          <% end %>
+          <a href="#" data-toggle="modal" data-target="#myModal">
+            <img width="64" src="images/email19.png">  
+            <h5>Contact us</h5>
+          </a>
         </div>
     </div>  
   </section>
